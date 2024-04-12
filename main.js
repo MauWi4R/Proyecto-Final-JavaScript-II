@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function() {
         to = document.getElementById("to").value;
         date = document.getElementById("dateRange").value;
 
-        url ='https://my-json-server.typicode.com/MauWi4R/api.airlines/db/';
+        url ='http://localhost:3000/';
         if (aerolinea !== "all") { // Si no es la opción comodín, añade la aerolínea a la URL
           url += aerolinea;
         }
