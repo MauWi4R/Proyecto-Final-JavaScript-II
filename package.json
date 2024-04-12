@@ -2,10 +2,10 @@
   "name": "proyecto_javascript_ii",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
-    "build": "parcel build index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build src/index.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ivy barron ugalde <ibu11122004rk@gmail.com>",
   "license": "MIT",
