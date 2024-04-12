@@ -1,4 +1,4 @@
-const baseURL = "http://localhost:3000/";
+const baseURL = "https://my-json-server.typicode.com/MauWi4R/api.airlines/db";
 
 document.getElementById('searchForm').addEventListener('submit', async (event) => {
     event.preventDefault(); // Evitar que el formulario se envíe
